@@ -1,6 +1,6 @@
 {
   "name": "language-nagios",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Nagios config support for Atom",
   "repository": "https://github.com/oddityoverseer13/atom-nagios"
 }
