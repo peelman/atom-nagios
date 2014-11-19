@@ -1,0 +1,5 @@
+{
+  "name": "language-nagios",
+  "version": "0.1.0",
+  "description": "Nagios config support for Atom"
+}
