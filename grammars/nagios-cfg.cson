@@ -21,6 +21,7 @@
     "patterns": [
       { "include": "$self" }
       { "include": "#variable" }
+      { "include": "#custom_variable" }
       { "include": "#separator" }
       {
         "name": "keyword.other.nagios"
@@ -62,6 +63,11 @@
     "name": "support.variable.nagios"
     "match": "\\$([A-Za-z][A-Za-z0-9_]+)\\$"
     "comment": "Variables like $SERVICESTATE$ $USER1$ etc"
+  }
+  "custom_variable": {
+    "name": "support.variable.entity.other.attribute-name.nagios"
+    "match": "\\$_?([A-Za-z][A-Za-z0-9_]+)\\$"
+    "comment": "Variables like $_SERVICEIDENTIFIER$ $_HOSTSNMP_COMMUNITY$ etc"
   }
   "separator": {
     "name": "constant.character.nagios"
